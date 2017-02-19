@@ -4,7 +4,8 @@
     "type": "project",
     "require": {
         "zyneframework/core": "dev-master",
-        "zyneframework/route": "dev-master"
+        "zyneframework/route": "dev-master",
+	"zyneframework/view" : "dev-master"
     },
     "license": "New BSD License",
     "authors": [
