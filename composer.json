@@ -1,0 +1,17 @@
+{
+    "name": "zyneframework/project",
+    "description": "Projeto Web Esqueleto com Framework Zyne",
+    "type": "project",
+    "require": {
+        "zyneframework/core": "dev-master",
+        "zyneframework/route": "dev-master"
+    },
+    "license": "New BSD License",
+    "authors": [
+        {
+            "name": "Gilberto Albino",
+            "email": "zyneframework@zyne.com.br"
+        }
+    ],
+    "minimum-stability": "dev"
+}

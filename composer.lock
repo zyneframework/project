@@ -1,0 +1,111 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ba090b97fe9fca33d46fb45696697160",
+    "packages": [
+        {
+            "name": "zyneframework/core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zyneframework/core.git",
+                "reference": "9b95f62c797a8261da26143bd3253d9efeb0458a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zyneframework/core/zipball/9b95f62c797a8261da26143bd3253d9efeb0458a",
+                "reference": "9b95f62c797a8261da26143bd3253d9efeb0458a",
+                "shasum": ""
+            },
+            "require": {
+                "zyneframework/core-min": "dev-master"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "New BSD License"
+            ],
+            "authors": [
+                {
+                    "name": "Gilberto Albino",
+                    "email": "zyneframework@zyne.com.br"
+                }
+            ],
+            "description": "Componente Core do Framework Zyne - Pacote Completo",
+            "time": "2017-02-17 11:47:54"
+        },
+        {
+            "name": "zyneframework/core-min",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zyneframework/core-min.git",
+                "reference": "8abe3d805710d91a41b5258a828cd6c53551a065"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zyneframework/core-min/zipball/8abe3d805710d91a41b5258a828cd6c53551a065",
+                "reference": "8abe3d805710d91a41b5258a828cd6c53551a065",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "New BSD License"
+            ],
+            "authors": [
+                {
+                    "name": "Gilberto Albino",
+                    "email": "zyneframework@zyne.com.br"
+                }
+            ],
+            "description": "Componente Core do Framework Zyne - Pacote Mínimo",
+            "time": "2017-02-17 11:36:12"
+        },
+        {
+            "name": "zyneframework/route",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zyneframework/route.git",
+                "reference": "53910c68bf881286c316bc2248b07d47b82c742e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zyneframework/route/zipball/53910c68bf881286c316bc2248b07d47b82c742e",
+                "reference": "53910c68bf881286c316bc2248b07d47b82c742e",
+                "shasum": ""
+            },
+            "require": {
+                "zyneframework/core-min": "dev-master"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "New BSD License"
+            ],
+            "authors": [
+                {
+                    "name": "Gilberto Albino",
+                    "email": "zyneframework@zyne.com.br"
+                }
+            ],
+            "description": "Componente Route do Framework Zyne",
+            "time": "2017-02-17 19:20:48"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "zyneframework/core": 20,
+        "zyneframework/route": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
