@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba090b97fe9fca33d46fb45696697160",
+    "content-hash": "fafad8b763fe22f95c6095969a0bdb53",
     "packages": [
         {
             "name": "zyneframework/core",
@@ -95,6 +95,42 @@
             ],
             "description": "Componente Route do Framework Zyne",
             "time": "2017-02-17 19:20:48"
+        },
+        {
+            "name": "zyneframework/view",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zyneframework/view.git",
+                "reference": "8bec6c8670c9aaecbc0b5ab7d5eb7ae0c37164f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zyneframework/view/zipball/8bec6c8670c9aaecbc0b5ab7d5eb7ae0c37164f2",
+                "reference": "8bec6c8670c9aaecbc0b5ab7d5eb7ae0c37164f2",
+                "shasum": ""
+            },
+            "require": {
+                "zyneframework/core-min": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Zyne\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "New BSD License"
+            ],
+            "authors": [
+                {
+                    "name": "Gilberto Albino",
+                    "email": "zyneframework@zyne.com.br"
+                }
+            ],
+            "description": "O Componente View do Framework Zyne",
+            "time": "2017-02-20 00:06:32"
         }
     ],
     "packages-dev": [],
@@ -102,7 +138,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "zyneframework/core": 20,
-        "zyneframework/route": 20
+        "zyneframework/route": 20,
+        "zyneframework/view": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -4,6 +4,7 @@
     "type": "project",
     "require": {
         "zyneframework/core": "dev-master",
+	"zyneframework/module" : "dev-master",
         "zyneframework/route": "dev-master",
 	"zyneframework/view" : "dev-master"
     },
