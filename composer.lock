@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fafad8b763fe22f95c6095969a0bdb53",
+    "content-hash": "ad1817adc1ae66cbf06ccd8eb0222072",
     "packages": [
         {
             "name": "zyneframework/core",
@@ -12,18 +12,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zyneframework/core.git",
-                "reference": "9b95f62c797a8261da26143bd3253d9efeb0458a"
+                "reference": "66612d4dfba5b665aad69a761ba8a564297cbcb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zyneframework/core/zipball/9b95f62c797a8261da26143bd3253d9efeb0458a",
-                "reference": "9b95f62c797a8261da26143bd3253d9efeb0458a",
+                "url": "https://api.github.com/repos/zyneframework/core/zipball/66612d4dfba5b665aad69a761ba8a564297cbcb3",
+                "reference": "66612d4dfba5b665aad69a761ba8a564297cbcb3",
                 "shasum": ""
             },
             "require": {
                 "zyneframework/core-min": "dev-master"
             },
             "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Zyne\\": "src/"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "New BSD License"
@@ -35,7 +40,7 @@
                 }
             ],
             "description": "Componente Core do Framework Zyne - Pacote Completo",
-            "time": "2017-02-17 11:47:54"
+            "time": "2017-02-20 23:14:04"
         },
         {
             "name": "zyneframework/core-min",
@@ -43,15 +48,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zyneframework/core-min.git",
-                "reference": "8abe3d805710d91a41b5258a828cd6c53551a065"
+                "reference": "cfcd2bcb433bae90b19dadbc8d26565795118093"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zyneframework/core-min/zipball/8abe3d805710d91a41b5258a828cd6c53551a065",
-                "reference": "8abe3d805710d91a41b5258a828cd6c53551a065",
+                "url": "https://api.github.com/repos/zyneframework/core-min/zipball/cfcd2bcb433bae90b19dadbc8d26565795118093",
+                "reference": "cfcd2bcb433bae90b19dadbc8d26565795118093",
                 "shasum": ""
             },
             "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Zyne\\": "src/"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "New BSD License"
@@ -63,24 +73,24 @@
                 }
             ],
             "description": "Componente Core do Framework Zyne - Pacote Mínimo",
-            "time": "2017-02-17 11:36:12"
+            "time": "2017-02-20 23:14:47"
         },
         {
-            "name": "zyneframework/route",
+            "name": "zyneframework/module",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/zyneframework/route.git",
-                "reference": "53910c68bf881286c316bc2248b07d47b82c742e"
+                "url": "https://github.com/zyneframework/module.git",
+                "reference": "147dd280382d33d29099c00e6b8387cf976a5263"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zyneframework/route/zipball/53910c68bf881286c316bc2248b07d47b82c742e",
-                "reference": "53910c68bf881286c316bc2248b07d47b82c742e",
+                "url": "https://api.github.com/repos/zyneframework/module/zipball/147dd280382d33d29099c00e6b8387cf976a5263",
+                "reference": "147dd280382d33d29099c00e6b8387cf976a5263",
                 "shasum": ""
             },
             "require": {
-                "zyneframework/core-min": "dev-master"
+                "zyneframework/core": "dev-master"
             },
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
@@ -93,8 +103,44 @@
                     "email": "zyneframework@zyne.com.br"
                 }
             ],
+            "description": "Componente Module do Framework Zyne",
+            "time": "2017-02-20 23:15:22"
+        },
+        {
+            "name": "zyneframework/route",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zyneframework/route.git",
+                "reference": "9a382022da24c1caef3bc5786b58333369c584b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zyneframework/route/zipball/9a382022da24c1caef3bc5786b58333369c584b8",
+                "reference": "9a382022da24c1caef3bc5786b58333369c584b8",
+                "shasum": ""
+            },
+            "require": {
+                "zyneframework/core-min": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Zyne\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "New BSD License"
+            ],
+            "authors": [
+                {
+                    "name": "Gilberto Albino",
+                    "email": "zyneframework@zyne.com.br"
+                }
+            ],
             "description": "Componente Route do Framework Zyne",
-            "time": "2017-02-17 19:20:48"
+            "time": "2017-02-20 23:15:48"
         },
         {
             "name": "zyneframework/view",
@@ -138,6 +184,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "zyneframework/core": 20,
+        "zyneframework/module": 20,
         "zyneframework/route": 20,
         "zyneframework/view": 20
     },

@@ -2,12 +2,6 @@
     "name": "zyneframework/project",
     "description": "Projeto Web Esqueleto com Framework Zyne",
     "type": "project",
-    "require": {
-        "zyneframework/core": "dev-master",
-	"zyneframework/module" : "dev-master",
-        "zyneframework/route": "dev-master",
-	"zyneframework/view" : "dev-master"
-    },
     "license": "New BSD License",
     "authors": [
         {
@@ -15,5 +9,13 @@
             "email": "zyneframework@zyne.com.br"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.2",
+        "zyneframework/core": "dev-master",
+        "zyneframework/injector": "dev-master",
+        "zyneframework/module": "dev-master",
+        "zyneframework/route": "dev-master",
+        "zyneframework/view": "dev-master"
+    }
 }
